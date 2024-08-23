@@ -10,5 +10,4 @@ private:
     std::string generateConv2D(const ONNXNode& node);
     std::string generateReLU(const ONNXNode& node);
     std::string generateMaxPool(const ONNXNode& node);
-    // Add more methods for other operations
 };
