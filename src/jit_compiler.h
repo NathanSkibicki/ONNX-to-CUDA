@@ -6,5 +6,4 @@ class JITCompiler {
 public:
     CUmodule compile(const std::string& cuda_code);
 private:
-    // Helper methods
 };
